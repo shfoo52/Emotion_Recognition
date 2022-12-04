@@ -1,0 +1,1 @@
+web: gunicorn app:AI_Assignment_Emotion_Recognition_Part2

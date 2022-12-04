@@ -5,7 +5,7 @@ import numpy as np
 from flask import Flask, render_template, Response
 
 face_classifier = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_alt.xml')
-classifier = load_model("D:/FSDS/AI/Assignment/Assignment 4 - AI_Use_Case/cnn_model.h5")
+classifier = load_model("cnn_model.h5")
 
 class_labels=['angry', 'disgust', 'fear', 'happy', 'sad', 'surprise', 'neutral']
 
